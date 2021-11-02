@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    margin: 50px auto;
+    margin: 15px auto;
     width: 80%;
 }
 
@@ -29,6 +29,55 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+}
+.a{
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.b{
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.c{
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+.d {
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+.e{
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.f{
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .like {
@@ -91,60 +140,60 @@ main {
 
 /* Foto articoli */
 
-.articolo:nth-child(1) > .foto {
+.a {
     background-image: url(./img/img/1.webp);
-    z-index:1;
+
 }
 
-.articolo:nth-child(1):hover > .foto {
+.a:hover{
     background-image: url(./img/img/1b.webp);
     z-index:1;
 }
 
-.articolo:nth-child(2) > .foto {
+.b {
     background-image: url(./img/img/2.webp);
-    z-index:1;
+    
 }
 
-.articolo:nth-child(2):hover > .foto {
+.b:hover {
     background-image: url(./img/img/2b.webp);
     z-index:1;
 }
 
-.articolo:nth-child(3) > .foto {
+.c {
     background-image: url(./img/img/3.webp);
-    z-index:1;
 }
 
-.articolo:nth-child(3):hover > .foto {
+.c:hover {
     background-image: url(./img/img/3b.webp);
     z-index:1;
 }
 
-.articolo:nth-child(4) > .foto {
+.d{
     background-image: url(./img/img/4.webp);
     z-index:1;
 }
 
-.articolo:nth-child(4):hover > .foto {
+.d:hover
+{
     background-image: url(./img/img/4b.webp);
     z-index:1;
 }
-.articolo:nth-child(5) > .foto {
+.e {
     background-image: url(./img/img/5.webp);
     z-index:1;
 }
-.articolo:nth-child(5):hover > .foto {
+.e:hover {
     background-image: url(./img/img/5b.webp);
     z-index:1;
 }
 
-.articolo:nth-child(6) > .foto {
+.f {
     background-image: url(./img/img/6.webp);
     z-index:1;
 }
 
-.articolo:nth-child(6):hover > .foto {
+.f:hover{
     background-image: url(./img/img/6b.webp);
     z-index:1;
 }
