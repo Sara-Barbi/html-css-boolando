@@ -38,7 +38,6 @@ main {
     background-size: cover;
     background-position: center;
     background-image: url(./img/img/2.webp);
-
 }
 
 .c{
@@ -86,7 +85,7 @@ main {
 .like {
     position: absolute;
     top: 15px;
-    right: 0;
+    right: 3px;
     padding: 5px 10px;
     background-color: #FFF;
     font-size: 24px;
@@ -175,8 +174,9 @@ main {
 }
 
 .discount:hover{
-    background-color: rgba(240, 69, 69, 0.74);
+    background-color: rgba(248, 144, 144, 0.74);
     z-index:1;
+    color: black;
 }
 
 .sosten:hover{
