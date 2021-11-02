@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 body {
@@ -22,20 +23,13 @@ main {
     float: left;
     margin: 10px;
 }
-
-.foto {
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-}
 .a{
     position: relative;
     height: 490px;
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/1.webp);
 }
 .b{
     position: relative;
@@ -43,6 +37,7 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/2.webp);
 
 }
 
@@ -52,6 +47,8 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/3.webp);
+
 
 }
 .d {
@@ -60,6 +57,8 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/4.webp);
+
 
 }
 .e{
@@ -68,6 +67,8 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/5.webp);
+
 
 }
 
@@ -77,6 +78,8 @@ main {
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
+    background-image: url(./img/img/6.webp);
+
 
 }
 
@@ -138,39 +141,20 @@ main {
     font-weight: normal;
 }
 
-/* Foto articoli */
-
-.a {
-    background-image: url(./img/img/1.webp);
-
-}
+/* hover */
 
 .a:hover{
     background-image: url(./img/img/1b.webp);
     z-index:1;
 }
-
-.b {
-    background-image: url(./img/img/2.webp);
     
-}
-
 .b:hover {
     background-image: url(./img/img/2b.webp);
     z-index:1;
 }
 
-.c {
-    background-image: url(./img/img/3.webp);
-}
-
 .c:hover {
     background-image: url(./img/img/3b.webp);
-    z-index:1;
-}
-
-.d{
-    background-image: url(./img/img/4.webp);
     z-index:1;
 }
 
@@ -179,21 +163,24 @@ main {
     background-image: url(./img/img/4b.webp);
     z-index:1;
 }
-.e {
-    background-image: url(./img/img/5.webp);
-    z-index:1;
-}
+
 .e:hover {
     background-image: url(./img/img/5b.webp);
-    z-index:1;
-}
-
-.f {
-    background-image: url(./img/img/6.webp);
     z-index:1;
 }
 
 .f:hover{
     background-image: url(./img/img/6b.webp);
     z-index:1;
+}
+
+.discount:hover{
+    background-color: rgba(240, 69, 69, 0.74);
+    z-index:1;
+}
+
+.sosten:hover{
+    background-color: rgb(86, 252, 169);
+    color: black;
+    z-index: 1;
 }
