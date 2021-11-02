@@ -17,7 +17,7 @@ main {
 }
 
 .articolo {
-    width: 350px;
+    width: 30%;
     cursor: pointer;
     float: left;
     margin: 10px;
@@ -25,7 +25,7 @@ main {
 
 .foto {
     position: relative;
-    height: 500px;
+    height: 490px;
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
