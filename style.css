@@ -25,61 +25,22 @@ main {
 }
 .a{
     position: relative;
-    height: 490px;
     margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/1.webp);
 }
-.b{
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/2.webp);
+.bef{
+    width: 100%;
+    display:block;
+    
 }
-
-.c{
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/3.webp);
-
-
+.af{
+    width: 100%;
+    display: none;
 }
-.d {
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/4.webp);
-
-
+.a:hover .af{
+    display: block;
 }
-.e{
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/5.webp);
-
-
-}
-
-.f{
-    position: relative;
-    height: 490px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./img/img/6.webp);
-
-
+.a:hover .bef{
+    display: none;
 }
 
 .like {
